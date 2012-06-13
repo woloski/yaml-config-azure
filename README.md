@@ -4,7 +4,8 @@ yaml-config-azure
 Manage your configuration based on NODE_ENV, all configuration defined with yaml and stored in Windows Azure storage. Shared configuration can be put under `default` key, different settings under each enviroment name.
 
 ### Why you would want to store your configuration in Windows Azure storage?
-Let's say you have your code in a public repo in github. You don't want to push a config file with all your keys and sensitive configurations. Neither you want to have your users create the config file on each dev environment. By using a centralized storage like Windows Azure storage you have it covered. You don't have to put sensitive data on your repo and devs can use a centralized configuration.
+Let's say you have your code in a public repo in github. You don't want to push a config file with all your keys and sensitive configurations. You can "gitignore" it but then devs working on the project will have to create the config file on each environment. By using a centralized cloud storage like Windows Azure storage you have the best of both worlds. You don't have to put sensitive data on your repo and devs can use a centralized configuration.
+This module will play well [git-azure](https://github.com/tjanczuk/git-azure).
 
 Based on <https://github.com/rjyo/yaml-config-node>
 
