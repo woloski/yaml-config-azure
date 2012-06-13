@@ -8,6 +8,6 @@
         "azure": ""
       , "js-yaml": ""
     }
-  , "main": "./lib/yaml-config"
+  , "main": "./lib/yaml-config-azure"
   , "engines": { "node" : ">= 0.6.15" }
 }
