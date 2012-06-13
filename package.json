@@ -1,0 +1,13 @@
+{
+    "name": "yaml-config-azure"
+  , "version": "0.1.0"
+  , "description": "Manage your node.js app configuration based on NODE_ENV, all configuration defined in yaml and stored in Windows Azure blob storage"
+  , "keywords": ["yaml", "azure", "configuration"]
+  , "author": "Matias Woloski <matiasw@gmail.com>"
+  , "dependencies": {
+        "azure": ""
+      , "js-yaml": ""
+    }
+  , "main": "./lib/yaml-config"
+  , "engines": { "node" : ">= 0.6.15" }
+}
